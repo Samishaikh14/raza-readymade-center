@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Collection - RAZA READYMADE HOUSE</title>
+    <meta name="description" content="Explore our kids' clothing collections: Boys Wear, Girls Wear, Baby Wear, and School Wear at RAZA READYMADE HOUSE.">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">RAZA READYMADE HOUSE</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="kids-collection.html">Kids Collection</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="collection-page">
+            <h1>Kids Collection</h1>
+            <div class="categories">
+                <div class="category">
+                    <h2>Boys Wear</h2>
+                    <div class="items">
+                        <div class="item-card">
+                            <img src="https://source.unsplash.com/300x200/?boys,tshirt" alt="Boys T-shirt">
+                            <h3>T-shirts</h3>
+                            <p>Comfortable and colorful T-shirts for everyday fun.</p>
+                        </div>
+                        <div class="item-card">
+                            <img src="https://source.unsplash.com/300x200/?boys,shirt" alt="Boys Shirt">
+                            <h3>Shirts</h3>
+                            <p>Stylish shirts perfect for casual outings.</p>
+                        </div>
+                        <div class="item-card">
+                            <img src="https://source.unsplash.com/300x200/?boys,jeans" alt="Boys Jeans">
+                            <h3>Jeans</h3>
+                            <p>Durable jeans for active play.</p>
+                        </div>
+                        <div class="item-card">
+                            <img src="https://source.unsplash.com/300x200/?boys,set" alt="Boys Sets">
+                            <h3>Sets</h3>
+                            <p>Matching sets for a complete look.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat similar structure for Girls Wear, Baby Wear, School Wear -->
+                <div class="category">
+                    <h2>Girls Wear</h2>
+                    <div class="items">
+                        <div class="item-card">
+                            <img src="https://source.unsplash.com/300x200/?girls,frock" alt="Girls Frock">
+                            <h3>Frocks</h3>
+                            <p>Pretty frocks for special occasions.</p>
+                        </div>
+                        <!-- Add more items similarly -->
+                    </div>
+                </div>
+                <!-- Add Baby Wear and School Wear categories with similar card layouts -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

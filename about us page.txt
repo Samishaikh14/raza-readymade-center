@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - RAZA READYMADE HOUSE</title>
+    <meta name="description" content="Learn about RAZA READYMADE HOUSE, your trusted kids' clothing store in Bazpur, focusing on quality and comfort.">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Same nav as above -->
+    </header>
+
+    <main>
+        <section class="about">
+            <h1>About Us</h1>
+            <p>At RAZA READYMADE HOUSE, located in the heart of Bazpur at Mundiya Pistor, we are passionate about providing the best quality kids' clothing. Our story began with a commitment to trust, quality, and ensuring every child feels comfortable and stylish. As a local store, we understand the needs of Bazpur families and offer affordable, latest designs that make shopping easy and enjoyable.</p>
+            <img src="https://source.unsplash.com/600x400/?store,interior" alt="Store interior">
+        </section>
+    </main>
+
+    <footer>
+        <!-- Same footer -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
